@@ -1,0 +1,67 @@
+# created with git log --stat=76 -M -C -500|fmt -sct -w80
+
+commit ee37f0c5fe95d56be9dd69269de98e8c22e5ccd4
+Author: Brian Bidulock <bidulock@openss7.org>
+Date:   Fri Sep 12 15:39:06 2014 -0600
+
+    added adwm style
+
+ Makefile.am        | 34 ++++++++++++++++++----------------
+ configure.template |  6 ++++++
+ 2 files changed, 24 insertions(+), 16 deletions(-)
+
+commit 277921ff037c54424b1b9f918636f5129421ceec
+Author: Brian Bidulock <bidulock@openss7.org>
+Date:   Sun Aug 17 17:13:50 2014 -0600
+
+    add themerc file
+
+ Makefile.am   |  3 ++-
+ theme/themerc | 76 +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 2 files changed, 78 insertions(+), 1 deletion(-)
+
+commit e2179e854fa863dfea8bb6926dfc009b4bd72c6a
+Author: Brian Bidulock <bidulock@openss7.org>
+Date:   Sat Jan 25 05:12:41 2014 -0700
+
+    added waimea support
+
+ Makefile.am        | 32 +++++++++++++++++---------------
+ configure.template |  6 ++++++
+ 2 files changed, 23 insertions(+), 15 deletions(-)
+
+commit 8e597065d9ee63fc24d21b9a62a30c89d3b898fa
+Author: Brian Bidulock <bidulock@openss7.org>
+Date:   Mon Dec 23 17:50:06 2013 -0700
+
+    updated description
+
+ README | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit 85eb9be8f2de91ac001e7d8da22d24b7c7e03943
+Author: Brian Bidulock <bidulock@openss7.org>
+Date:   Mon Dec 23 15:07:58 2013 -0700
+
+    initial commit
+
+ .gitignore                |  12 ++++
+ AUTHORS                   |   3 +
+ COPYING                   |  58 +++++++++++++++++++
+ Makefile.am               |  64 +++++++++++++++++++++
+ NEWS                      |  10 ++++
+ README                    |  65 ++++++++++++++++++++++
+ THANKS                    |   3 +
+ autogen.sh                |  19 +++++++
+ configure.template        | 126 ++++++++++++++++++++++++++++++++++++++++++
+ images/4portoc48.jpg      | Bin 0 -> 141836 bytes
+ images/4portoptical.jpg   | Bin 0 -> 334886 bytes
+ images/8portcard-pcie.jpg | Bin 0 -> 102264 bytes
+ images/8portoptical.jpg   | Bin 0 -> 316165 bytes
+ images/gerber.jpg         | Bin 0 -> 269042 bytes
+ images/gerber2.jpg        | Bin 0 -> 367254 bytes
+ images/gerberoptical.jpg  | Bin 0 -> 449869 bytes
+ images/optics.jpg         | Bin 0 -> 241008 bytes
+ theme/style               |  52 +++++++++++++++++
+ theme/theme.ini           |  82 +++++++++++++++++++++++++++
+ 19 files changed, 494 insertions(+)
