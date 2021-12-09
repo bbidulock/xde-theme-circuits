@@ -92,6 +92,13 @@ Following are the five wallpapers included in the theme:
 ![gerber.jpg](images/gerber.jpg "Wallpaper #4")
 ![optics.jpg](images/optics.jpg "Wallpaper #5")
 
+Following are an additional three wallpapers that may be used to
+customize the theme:
+
+![4portoptical.jpg](images/4portoptical.jpg "Additional Image #1")
+![8portoptical.jpg](images/8portoptical.jpg "Additional Image #2")
+![gerberoptical.jpg](images/gerberoptical.jpg "Additional Image #3")
+
 
 
 [1]: https://github.com/bbidulock/xde-theme-circuits
